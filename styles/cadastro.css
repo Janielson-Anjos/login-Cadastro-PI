@@ -30,6 +30,7 @@ main {
     height: 600px;
     border-radius: 10px;
     padding: 20px;
+    margin-top: -20px;
 }
 
 h2 {
@@ -107,10 +108,12 @@ input{
 
 .form-cta{
     display: flex;
-    flex-direction: column;
-    gap: 90px;
     align-items: center;
     margin-top: 29px;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    margin-right: 55px;
+    margin-left: 60px;
 }
 
 .btn-login{
